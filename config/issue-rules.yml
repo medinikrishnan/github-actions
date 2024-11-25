@@ -10,6 +10,8 @@ rules:
   assign: ['enpm611']
 - contains: maybe
   addLabels: ['question']
+- contains: ['urgent']
+  assign: medinikrishnan
 
 # List that always runs after rules and nomatches. Look for missing sets of tags here.
 tags:
